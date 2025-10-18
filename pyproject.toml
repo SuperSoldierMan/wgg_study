@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lotto-tools"
+version = "0.1.0"
+description = "Tools for fetching, analyzing, and generating Chinese Double Chromosphere lottery data"
+readme = "README.md"
+authors = [{name = "wgg"}]
+license = {text = "MIT"}
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "pandas>=2.0",
+    "numpy>=1.24",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

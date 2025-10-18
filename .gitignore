@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+*.egg-info/
+.venv/
+.env
+.env.*
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Data outputs
+data/draws.csv
+out/report.md
+out/metrics.json
+out/picks.txt
